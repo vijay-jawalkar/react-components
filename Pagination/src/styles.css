@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 45px;
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: center;
+  border: 2px solid black;
+}
+
+.card img {
+  width: 100%;
+  height: 75%;
+}
+
+.pagination {
+  max-width: 180px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.page {
+  padding: 6px;
+  border: 2px solid royalblue;
+}
+
+.not_selected {
+  background-color: whitesmoke;
+}
+
+.selected {
+  background-color: gray;
+}
